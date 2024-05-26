@@ -20,7 +20,7 @@ body {
 /* Container Styles */
 .container {
     display: flex;
-    padding: 0 200px;
+    padding: 0 0px;
     box-sizing: border-box;
     min-height: 100vh;
 }
@@ -33,7 +33,7 @@ body {
     background-position: center;
     padding: 0;
     box-sizing: border-box;
-    height: 150vh;
+  /*  height: 150vh;*/
     /*color: #013220;*/
     position: relative;
     display: flex;
@@ -46,8 +46,8 @@ body {
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
     overflow: hidden;
     border: 0 solid #fff;
@@ -104,8 +104,8 @@ body {
 }
 
 .dot {
-    width: 15px; /* Adjust width as needed */
-    height: 15px; /* Adjust height as needed */
+    width: 1vw; /* Adjust width as needed */
+    height: 1vw; /* Adjust height as needed */
     border-radius: 50%;
     border: 1px solid white; /* Border color */
     margin-right: 8px; /* Adjust margin between dots as needed */
@@ -123,7 +123,7 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    height: 150vh;
+  /*  height: 150vh;*/
 }
 
 .top-right {
@@ -135,8 +135,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-/*    flex: 1;  Adjusted to take up 50% of the right column height */
-    height: 24vh;
+    flex: 1;  /*Adjusted to take up 50% of the right column height */
+/*    height: 24vh;*/
 }
 
 header {
@@ -147,8 +147,8 @@ header {
 .bottom-right {
     padding: 20px;
     overflow-y: auto;
-/*    flex: 8; /* Adjusted to take up 50% of the right column height */
-    box-sizing: border-box;
+    flex: 8; /* Adjusted to take up 50% of the right column height */
+/*    box-sizing: border-box;*/
 }
 
 .job h3 {
