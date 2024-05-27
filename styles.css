@@ -43,11 +43,11 @@ body {
 
 .profile-photo {
     position: absolute;
-    top: 50px;
+    top: 5vw;
     left: 50%;
     transform: translateX(-50%);
-    width: 15vw;
-    height: 15vw;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
     overflow: hidden;
     border: 0 solid #fff;
@@ -64,22 +64,22 @@ body {
 
 .left-column-inner {
     flex-grow: 1; /* Make it occupy remaining space */
-    margin-top: 260px;
+    margin-top: 32vw;
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 10px;
-    border-radius: 10px;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
     width: 95%;
     text-align: center;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-	margin-bottom: 10px; /* Adjust margin-bottom as needed */
+	margin-bottom: 0.5vw; /* Adjust margin-bottom as needed */
 }
 
 
 .contact-info {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0.25vw;
+    margin-bottom: 0.25vw;
 	color: #013220;
 }
 
@@ -96,7 +96,7 @@ body {
 .language-name {
     margin-right: 10px; /* Adjust margin as needed */
     text-align: left;
-	margin-bottom: 5px; /* Adjust margin-bottom as needed */
+	margin-bottom: 0.25vw; /* Adjust margin-bottom as needed */
 }
 
 .dots {
@@ -104,12 +104,12 @@ body {
 }
 
 .dot {
-    width: 1vw; /* Adjust width as needed */
-    height: 1vw; /* Adjust height as needed */
+    width: 1.5vw; /* Adjust width as needed */
+    height: 1.5vw; /* Adjust height as needed */
     border-radius: 50%;
-    border: 1px solid white; /* Border color */
-    margin-right: 8px; /* Adjust margin between dots as needed */
-	margin-bottom: 10px; /* Adjust margin-bottom as needed */
+    border: 0.1vw solid white; /* Border color */
+    margin-right: 0.25vw; /* Adjust margin between dots as needed */
+	margin-bottom: 0.25vw; /* Adjust margin-bottom as needed */
 }
 
 .dot.filled {
@@ -119,19 +119,18 @@ body {
 /* Right Column Styles */
 .right-column {
     width: 75%;
-    padding-left: 0px;
+    padding-left: 0vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-  /*  height: 150vh;*/
 }
 
 .top-right {
-    padding: 20px;
+    padding: 1vw;
     background-color: #013220;
     color: #ffffff;
     box-sizing: border-box;
-	font-size: 24pt;
+	font-size: 3vw;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -145,7 +144,7 @@ header {
 }
 
 .bottom-right {
-    padding: 20px;
+    padding: 1vw;
     overflow-y: auto;
     flex: 8; /* Adjusted to take up 50% of the right column height */
 /*    box-sizing: border-box;*/
@@ -156,7 +155,7 @@ header {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 1vw;
 }
 
 .specializations {
@@ -165,12 +164,12 @@ section {
 }
 
 .specialization {
-    margin: 10px;
+    margin: 1vw;
 }
 
 .circle {
-    width: 120px;
-    height: 120px;
+    width: 12vw;
+    height: 12vw;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -201,13 +200,13 @@ section {
 .skills {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 1vw;
 }
 
 .skill {
     flex: 1 1 45%; /* Two columns with some spacing */
     margin-right: 5%;
-    margin-bottom: 10px;
+    margin-bottom: 1vw;
 }
 
 .skill:nth-child(2n) {
@@ -215,18 +214,18 @@ section {
 }
 
 .skill-name {
-    margin-bottom: 5px;
+    margin-bottom: 0.5vw;
 }
 
 
 .progress {
     background-color: #e0e0e0;
-    border-radius: 5px;
+    border-radius: 0.5vw;
     overflow: hidden;
 }
 
 .progress-bar {
-    height: 15px;
+    height: 1vw;
     background-color: #013220;
 }
 
