@@ -20,7 +20,7 @@ body {
 /* Container Styles */
 .container {
     display: flex;
-    padding: 0 0px;
+    padding: 0 0vw;
     box-sizing: border-box;
     min-height: 100vh;
 }
@@ -80,21 +80,24 @@ body {
 .contact-info {
     margin-top: 0.25vw;
     margin-bottom: 0.25vw;
+	font-size: 2vw;
 	color: #013220;
 }
 
 .education, .languages {
 	color: #ffffff;
+	font-size: 2vw;
 }
 
 /* Language Dots */
 .language {
     display: flex;
     align-items: center;
+	font-size: 2vw;
 }
 
 .language-name {
-    margin-right: 10px; /* Adjust margin as needed */
+    margin-right: 1vw; /* Adjust margin as needed */
     text-align: left;
 	margin-bottom: 0.25vw; /* Adjust margin-bottom as needed */
 }
@@ -130,7 +133,7 @@ body {
     background-color: #013220;
     color: #ffffff;
     box-sizing: border-box;
-	font-size: 3vw;
+	font-size: 4vw;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -146,6 +149,7 @@ header {
 .bottom-right {
     padding: 1vw;
     overflow-y: auto;
+	font-size: 2vw;
     flex: 8; /* Adjusted to take up 50% of the right column height */
 /*    box-sizing: border-box;*/
 }
@@ -161,6 +165,7 @@ section {
 .specializations {
     display: flex;
     flex-wrap: wrap;
+	font-size: 2vw;
 }
 
 .specialization {
@@ -245,10 +250,10 @@ section {
     width: 95%;
 }
 
-.progress-80 .progress-bar {
-    width: 80%;
+.progress-90 .progress-bar {
+    width: 90%;
 }
 
-.progress-70 .progress-bar {
-    width: 70%;
+.progress-75 .progress-bar {
+    width: 75%;
 }
